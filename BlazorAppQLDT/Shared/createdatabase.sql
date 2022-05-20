@@ -269,8 +269,6 @@ ON DELETE CASCADE
 GO
 ALTER TABLE [dbo].[AspNetUserTokens] CHECK CONSTRAINT [FK_AspNetUserTokens_AspNetUsers_UserId]
 GO
-USE [FullStackCRUD]
-GO
 SET IDENTITY_INSERT [dbo].[Comics] ON 
 GO
 INSERT [dbo].[Comics] ([Id], [Name]) VALUES (1, N'Marvel')
