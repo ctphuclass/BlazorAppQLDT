@@ -19,5 +19,7 @@
         }
         public DbSet<SuperHero> SuperHeroes { get; set; }
         public DbSet<Comic> Comics { get; set; }
+
+        public DbSet<FAQApp> FAQApps { get; set; }
     }
 }
